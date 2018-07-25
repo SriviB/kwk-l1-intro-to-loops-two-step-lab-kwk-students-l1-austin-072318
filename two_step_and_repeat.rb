@@ -40,11 +40,10 @@ def how_many_steps?
   steps = 0
   loop do
     steps +=1
-    print steps
     if steps % 2 == 0
-      "Left"
+      "Left"+ steps
     else
-      "Right"
+      "Right" + steps
       break
     end
     sleep(0.5)
