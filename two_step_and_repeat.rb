@@ -44,7 +44,6 @@ def how_many_steps?
       "Left" + "1"
     else
       "Right" + "1"
-      break
     end
     sleep(0.5)
   end
