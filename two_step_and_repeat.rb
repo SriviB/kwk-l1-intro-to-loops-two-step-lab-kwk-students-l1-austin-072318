@@ -41,9 +41,9 @@ def how_many_steps?
   loop do
     steps +=1
     if steps % 2 == 0
-      "Left"+ steps
+      "Left" + "1"
     else
-      "Right" + steps
+      "Right" + "1"
       break
     end
     sleep(0.5)
