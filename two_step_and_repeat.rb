@@ -40,7 +40,7 @@ def how_many_steps?
   steps = 0
   loop do
     steps +=1
-    print steps
+    steps
     if steps % 2 == 0
       "Left" + "1"
     else
