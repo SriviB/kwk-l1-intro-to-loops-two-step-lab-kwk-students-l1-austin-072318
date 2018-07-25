@@ -41,9 +41,9 @@ def how_many_steps?
   loop do
     steps +=1
     if steps % 2 == 0
-      puts "Left"
+      "Left"
     else
-      puts "Right"
+      "Right"
     end
     sleep(0.5)
   end
